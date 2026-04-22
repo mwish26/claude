@@ -57,7 +57,7 @@
       "recipients": []
     },
     "sms": {
-      "enabled": true,
+      "enabled": false,
       "provider": "twilio",
       "account_sid": "",
       "auth_token": "",
