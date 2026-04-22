@@ -1,0 +1,30 @@
+name: MAP Compliance Check
+
+on:
+  schedule:
+    # Twice daily: 8 AM and 8 PM Eastern (12:00 and 00:00 UTC)
+    - cron: "0 12 * * *"
+    - cron: "0 0 * * *"
+  workflow_dispatch: # allows manual runs from GitHub UI
+
+jobs:
+  check-map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run MAP check
+        env:
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: "587"
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+        run: python run_check.py
