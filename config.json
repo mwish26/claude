@@ -3,9 +3,44 @@
   "check_interval_hours": 12,
   "products": [
     {
-      "name": "Dialed Gum - Example SKU",
-      "asin": "B0XXXXXXXXX",
-      "map_price": 19.99
+      "name": "Dialed Energy Gum 24pc - Cool Mint",
+      "asin": "B0CRCVK1HC",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Energy Gum 24pc - Caramel Macchiato",
+      "asin": "B0CRCZ3GRX",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Energy Gum 64pc - Cool Mint",
+      "asin": "B0CRCR11Y5",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Energy Gum 64pc - Caramel Macchiato",
+      "asin": "B0CRCS444C",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Energy Gum 112pc - Cool Mint",
+      "asin": "B0CRC1QMFR",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Energy Gum 112pc - Caramel Macchiato",
+      "asin": "B0CRC82912",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Xylitol Gum 250pc - Spearmint",
+      "asin": "B0FG3KT8S2",
+      "map_price": 0.00
+    },
+    {
+      "name": "Dialed Xylitol Gum 500pc - Spearmint",
+      "asin": "B0FG3G5DH1",
+      "map_price": 0.00
     }
   ],
   "authorized_resellers": [
