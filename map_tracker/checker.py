@@ -9,8 +9,12 @@ import random
 from datetime import datetime, timezone
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 from .scraper import scrape_amazon_offers, fetch_offers_rainforest, Offer
 from .notifier import notify_violations, notify_all_clear
+
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 logger = logging.getLogger(__name__)
 
