@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+violations.csv
+cron.log
+.venv/

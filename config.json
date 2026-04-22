@@ -1,0 +1,34 @@
+{
+  "brand": "Dialed Gum",
+  "check_interval_hours": 12,
+  "products": [
+    {
+      "name": "Dialed Gum - Example SKU",
+      "asin": "B0XXXXXXXXX",
+      "map_price": 19.99
+    }
+  ],
+  "authorized_resellers": [
+    "FDZ",
+    "Dialed Gum"
+  ],
+  "notifications": {
+    "email": {
+      "enabled": true,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "sender_email": "",
+      "sender_password": "",
+      "recipients": []
+    },
+    "sms": {
+      "enabled": true,
+      "provider": "twilio",
+      "account_sid": "",
+      "auth_token": "",
+      "from_number": "",
+      "to_numbers": []
+    }
+  },
+  "violation_log": "violations.csv"
+}
