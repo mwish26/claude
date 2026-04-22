@@ -1,0 +1,69 @@
+{
+  "brand": "Dialed Gum",
+  "check_interval_hours": 12,
+  "products": [
+    {
+      "name": "Dialed Energy Gum 24pc - Cool Mint",
+      "asin": "B0CRCVK1HC",
+      "map_price": 15.47
+    },
+    {
+      "name": "Dialed Energy Gum 24pc - Caramel Macchiato",
+      "asin": "B0CRCZ3GRX",
+      "map_price": 15.47
+    },
+    {
+      "name": "Dialed Energy Gum 64pc - Cool Mint",
+      "asin": "B0CRCR11Y5",
+      "map_price": 25.97
+    },
+    {
+      "name": "Dialed Energy Gum 64pc - Caramel Macchiato",
+      "asin": "B0CRCS444C",
+      "map_price": 25.97
+    },
+    {
+      "name": "Dialed Energy Gum 112pc - Cool Mint",
+      "asin": "B0CRC1QMFR",
+      "map_price": 35.97
+    },
+    {
+      "name": "Dialed Energy Gum 112pc - Caramel Macchiato",
+      "asin": "B0CRC82912",
+      "map_price": 35.97
+    },
+    {
+      "name": "Dialed Xylitol Gum 250pc - Spearmint",
+      "asin": "B0FG3KT8S2",
+      "map_price": 29.97
+    },
+    {
+      "name": "Dialed Xylitol Gum 500pc - Spearmint",
+      "asin": "B0FG3G5DH1",
+      "map_price": 39.97
+    }
+  ],
+  "authorized_resellers": [
+    "FDZ",
+    "Dialed Gum"
+  ],
+  "notifications": {
+    "email": {
+      "enabled": true,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "sender_email": "",
+      "sender_password": "",
+      "recipients": []
+    },
+    "sms": {
+      "enabled": false,
+      "provider": "twilio",
+      "account_sid": "",
+      "auth_token": "",
+      "from_number": "",
+      "to_numbers": []
+    }
+  },
+  "violation_log": "violations.csv"
+}
